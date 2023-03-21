@@ -35,7 +35,7 @@ public class frame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("hola");
+        jButton1.setText("Botón");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -44,7 +44,7 @@ public class frame extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(288, 240, -1, -1));
 
         label1.setText("Esta es una etiqueta ");
-        getContentPane().add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 185, -1, -1));
+        getContentPane().add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 190, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
