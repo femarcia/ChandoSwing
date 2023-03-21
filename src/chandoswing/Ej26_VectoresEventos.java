@@ -58,7 +58,7 @@ public class Ej26_VectoresEventos extends javax.swing.JFrame {
         
         /* PROGRAMA AMPLIADO */
         if(botonPulsado.getText() == "Cerrar" || botonPulsado.getText() == "Salir") {
-            this.setVisible(false);
+            System.exit(0);
         } else {
             JOptionPane.showMessageDialog(null, "Has pulsado el botón " + botonPulsado.getText());
         }
