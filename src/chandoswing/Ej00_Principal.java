@@ -49,12 +49,20 @@ public class Ej00_Principal extends javax.swing.JFrame {
         jButton23 = new javax.swing.JButton();
         jButton24 = new javax.swing.JButton();
         jButton25 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1360, 768));
 
         panEj00.setLayout(new java.awt.GridLayout(5, 5));
 
         btnEje01.setText("jButton1");
+        btnEje01.setToolTipText("Alex");
+        btnEje01.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEje01ActionPerformed(evt);
+            }
+        });
         panEj00.add(btnEje01);
 
         btnEje02.setText("jButton2");
@@ -134,6 +142,9 @@ public class Ej00_Principal extends javax.swing.JFrame {
         jButton25.setText("jButton25");
         panEj00.add(jButton25);
 
+        jButton26.setText("jButton1");
+        panEj00.add(jButton26);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -157,6 +168,10 @@ public class Ej00_Principal extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEje01ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -213,6 +228,7 @@ public class Ej00_Principal extends javax.swing.JFrame {
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
