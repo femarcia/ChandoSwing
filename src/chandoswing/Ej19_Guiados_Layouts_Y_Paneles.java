@@ -195,6 +195,11 @@ public class Ej19_Guiados_Layouts_Y_Paneles extends javax.swing.JFrame {
         panelBotonera.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
         jButton2.setText("jButton2");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         panelBotonera.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, -1, -1));
 
         jButton3.setText("jButton3");
@@ -223,6 +228,10 @@ public class Ej19_Guiados_Layouts_Y_Paneles extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
