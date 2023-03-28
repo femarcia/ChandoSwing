@@ -98,6 +98,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton10);
 
         jButton11.setText("jButton11");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton11);
 
         jButton12.setText("jButton12");
