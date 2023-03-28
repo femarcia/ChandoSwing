@@ -128,6 +128,12 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton20);
 
         jButton21.setText("jButton21");
+        jButton21.setToolTipText("Hugo");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton21);
 
         jButton22.setText("jButton22");
@@ -165,12 +171,17 @@ public class Ej00_Principal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
-        // TODO add your handling code here:
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
+        Eje_21 eje_21 = new Eje_21();
+        eje_21.setVisible(true);
     }//GEN-LAST:event_btnEje01ActionPerformed
 
     /**
