@@ -8,12 +8,12 @@ package chandoswing;
  *
  * @author fabricio
  */
-public class Ej19_GUIADOS_LAYOUTS_Y_PANELES extends javax.swing.JFrame {
+public class Ej19_Guiados_Layouts_Y_Paneles extends javax.swing.JFrame {
 
     /**
      * Creates new form Ej19
      */
-    public Ej19_GUIADOS_LAYOUTS_Y_PANELES() {
+    public Ej19_Guiados_Layouts_Y_Paneles() {
         initComponents();
     }
 
@@ -27,80 +27,211 @@ public class Ej19_GUIADOS_LAYOUTS_Y_PANELES extends javax.swing.JFrame {
     private void initComponents() {
 
         panelTitulo = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         panelDatos = new javax.swing.JPanel();
+        panelEtiqueta1 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
+        panelCuadro1 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextPane1 = new javax.swing.JTextPane();
+        panelEtiqueta2 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        panelCuadro2 = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextPane2 = new javax.swing.JTextPane();
         panelEstado = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         panelBotonera = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
         panelVerificacion = new javax.swing.JPanel();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jCheckBox2 = new javax.swing.JCheckBox();
+        jCheckBox3 = new javax.swing.JCheckBox();
+        jCheckBox4 = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        javax.swing.GroupLayout panelTituloLayout = new javax.swing.GroupLayout(panelTitulo);
-        panelTitulo.setLayout(panelTituloLayout);
-        panelTituloLayout.setHorizontalGroup(
-            panelTituloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
-        );
-        panelTituloLayout.setVerticalGroup(
-            panelTituloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 424, Short.MAX_VALUE)
-        );
+        jLabel1.setText("Ejercicio de distribución de paneles y Layout");
+        jLabel1.setBorder(new javax.swing.border.MatteBorder(null));
+        panelTitulo.add(jLabel1);
+
+        jLabel2.setText("por Fabricio Ferreyra");
+        jLabel2.setBorder(new javax.swing.border.MatteBorder(null));
+        panelTitulo.add(jLabel2);
 
         getContentPane().add(panelTitulo, java.awt.BorderLayout.NORTH);
 
-        javax.swing.GroupLayout panelDatosLayout = new javax.swing.GroupLayout(panelDatos);
-        panelDatos.setLayout(panelDatosLayout);
-        panelDatosLayout.setHorizontalGroup(
-            panelDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 266, Short.MAX_VALUE)
+        panelDatos.setName(""); // NOI18N
+        panelDatos.setPreferredSize(new java.awt.Dimension(415, 350));
+        panelDatos.setLayout(new java.awt.GridLayout(2, 2));
+
+        jLabel6.setText("Dato1:");
+
+        javax.swing.GroupLayout panelEtiqueta1Layout = new javax.swing.GroupLayout(panelEtiqueta1);
+        panelEtiqueta1.setLayout(panelEtiqueta1Layout);
+        panelEtiqueta1Layout.setHorizontalGroup(
+            panelEtiqueta1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelEtiqueta1Layout.createSequentialGroup()
+                .addGap(72, 72, 72)
+                .addComponent(jLabel6)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        panelDatosLayout.setVerticalGroup(
-            panelDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+        panelEtiqueta1Layout.setVerticalGroup(
+            panelEtiqueta1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelEtiqueta1Layout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addComponent(jLabel6)
+                .addContainerGap(137, Short.MAX_VALUE))
         );
 
+        panelDatos.add(panelEtiqueta1);
+
+        jScrollPane1.setViewportView(jTextPane1);
+
+        javax.swing.GroupLayout panelCuadro1Layout = new javax.swing.GroupLayout(panelCuadro1);
+        panelCuadro1.setLayout(panelCuadro1Layout);
+        panelCuadro1Layout.setHorizontalGroup(
+            panelCuadro1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelCuadro1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(14, Short.MAX_VALUE))
+        );
+        panelCuadro1Layout.setVerticalGroup(
+            panelCuadro1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelCuadro1Layout.createSequentialGroup()
+                .addGap(75, 75, 75)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(134, Short.MAX_VALUE))
+        );
+
+        panelDatos.add(panelCuadro1);
+
+        jLabel7.setText("Dato2:");
+
+        javax.swing.GroupLayout panelEtiqueta2Layout = new javax.swing.GroupLayout(panelEtiqueta2);
+        panelEtiqueta2.setLayout(panelEtiqueta2Layout);
+        panelEtiqueta2Layout.setHorizontalGroup(
+            panelEtiqueta2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelEtiqueta2Layout.createSequentialGroup()
+                .addGap(74, 74, 74)
+                .addComponent(jLabel7)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        panelEtiqueta2Layout.setVerticalGroup(
+            panelEtiqueta2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelEtiqueta2Layout.createSequentialGroup()
+                .addGap(77, 77, 77)
+                .addComponent(jLabel7)
+                .addContainerGap(138, Short.MAX_VALUE))
+        );
+
+        panelDatos.add(panelEtiqueta2);
+
+        jScrollPane2.setViewportView(jTextPane2);
+
+        javax.swing.GroupLayout panelCuadro2Layout = new javax.swing.GroupLayout(panelCuadro2);
+        panelCuadro2.setLayout(panelCuadro2Layout);
+        panelCuadro2Layout.setHorizontalGroup(
+            panelCuadro2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelCuadro2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(14, Short.MAX_VALUE))
+        );
+        panelCuadro2Layout.setVerticalGroup(
+            panelCuadro2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelCuadro2Layout.createSequentialGroup()
+                .addGap(74, 74, 74)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(135, Short.MAX_VALUE))
+        );
+
+        panelDatos.add(panelCuadro2);
+
         getContentPane().add(panelDatos, java.awt.BorderLayout.CENTER);
+
+        jLabel3.setText("jLabel3");
+
+        jLabel4.setText("jLabel4");
+
+        jLabel5.setText("jLabel5");
 
         javax.swing.GroupLayout panelEstadoLayout = new javax.swing.GroupLayout(panelEstado);
         panelEstado.setLayout(panelEstadoLayout);
         panelEstadoLayout.setHorizontalGroup(
             panelEstadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelEstadoLayout.createSequentialGroup()
+                .addContainerGap(406, Short.MAX_VALUE)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel3)
+                .addContainerGap())
         );
         panelEstadoLayout.setVerticalGroup(
             panelEstadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 361, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelEstadoLayout.createSequentialGroup()
+                .addContainerGap(44, Short.MAX_VALUE)
+                .addGroup(panelEstadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel5))
+                .addGap(39, 39, 39))
         );
 
         getContentPane().add(panelEstado, java.awt.BorderLayout.SOUTH);
 
-        javax.swing.GroupLayout panelBotoneraLayout = new javax.swing.GroupLayout(panelBotonera);
-        panelBotonera.setLayout(panelBotoneraLayout);
-        panelBotoneraLayout.setHorizontalGroup(
-            panelBotoneraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        panelBotoneraLayout.setVerticalGroup(
-            panelBotoneraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        panelBotonera.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.setText("jButton1");
+        panelBotonera.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+
+        jButton2.setText("jButton2");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        panelBotonera.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, -1, -1));
+
+        jButton3.setText("jButton3");
+        panelBotonera.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        jButton4.setText("jButton4");
+        panelBotonera.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, -1, -1));
 
         getContentPane().add(panelBotonera, java.awt.BorderLayout.WEST);
 
-        javax.swing.GroupLayout panelVerificacionLayout = new javax.swing.GroupLayout(panelVerificacion);
-        panelVerificacion.setLayout(panelVerificacionLayout);
-        panelVerificacionLayout.setHorizontalGroup(
-            panelVerificacionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        panelVerificacionLayout.setVerticalGroup(
-            panelVerificacionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
+        panelVerificacion.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jCheckBox1.setText("jCheckBox1");
+        panelVerificacion.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, -1, -1));
+
+        jCheckBox2.setText("jCheckBox2");
+        panelVerificacion.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, -1, -1));
+
+        jCheckBox3.setText("jCheckBox3");
+        panelVerificacion.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 190, -1, -1));
+
+        jCheckBox4.setText("jCheckBox4");
+        panelVerificacion.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
 
         getContentPane().add(panelVerificacion, java.awt.BorderLayout.EAST);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -119,13 +250,13 @@ public class Ej19_GUIADOS_LAYOUTS_Y_PANELES extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Ej19_GUIADOS_LAYOUTS_Y_PANELES.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ej19_Guiados_Layouts_Y_Paneles.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Ej19_GUIADOS_LAYOUTS_Y_PANELES.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ej19_Guiados_Layouts_Y_Paneles.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Ej19_GUIADOS_LAYOUTS_Y_PANELES.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ej19_Guiados_Layouts_Y_Paneles.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Ej19_GUIADOS_LAYOUTS_Y_PANELES.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Ej19_Guiados_Layouts_Y_Paneles.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -133,15 +264,38 @@ public class Ej19_GUIADOS_LAYOUTS_Y_PANELES extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Ej19_GUIADOS_LAYOUTS_Y_PANELES().setVisible(true);
+                new Ej19_Guiados_Layouts_Y_Paneles().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBox2;
+    private javax.swing.JCheckBox jCheckBox3;
+    private javax.swing.JCheckBox jCheckBox4;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTextPane jTextPane2;
     private javax.swing.JPanel panelBotonera;
+    private javax.swing.JPanel panelCuadro1;
+    private javax.swing.JPanel panelCuadro2;
     private javax.swing.JPanel panelDatos;
     private javax.swing.JPanel panelEstado;
+    private javax.swing.JPanel panelEtiqueta1;
+    private javax.swing.JPanel panelEtiqueta2;
     private javax.swing.JPanel panelTitulo;
     private javax.swing.JPanel panelVerificacion;
     // End of variables declaration//GEN-END:variables
