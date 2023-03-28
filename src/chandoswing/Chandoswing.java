@@ -18,6 +18,7 @@ public class Chandoswing {
         // TODO code application logic here
 	// Comentario de prueba
 	// Para ya de comentar!
+        Ej00_Principal ej = new Ej00_Principal();
     }
     
 }
