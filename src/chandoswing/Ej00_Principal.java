@@ -143,7 +143,7 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton25);
 
         jButton26.setText("jButton26");
-        jButton26.setToolTipText("Alex");
+        jButton26.setToolTipText("Daniel Touriño");
         jButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEje26ActionPerformed(evt);
