@@ -1,6 +1,8 @@
 
 package chandoswing;
 
+import java.awt.event.ActionEvent;
+
 /**
  *
  * @author Marcia
@@ -73,6 +75,9 @@ public class Ej00_Principal extends javax.swing.JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
+
+
+        
         });
         panEj00.add(jButton3);
 
@@ -125,6 +130,17 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton19);
 
         jButton20.setText("jButton20");
+        jButton20.setText("jButton20");
+       jButton20.setToolTipText("Vergel");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+
+            private void jButton20ActionPerformed(ActionEvent evt) {
+                Eje20_Dialogos dialogos = new Eje20_Dialogos();
+                dialogos.setVisible(true);
+            }});
         panEj00.add(jButton20);
 
         jButton21.setText("jButton21");
