@@ -142,7 +142,13 @@ public class Ej00_Principal extends javax.swing.JFrame {
         jButton25.setText("jButton25");
         panEj00.add(jButton25);
 
-        jButton26.setText("jButton1");
+        jButton26.setText("jButton26");
+        jButton26.setToolTipText("Alex");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEje26ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton26);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -171,6 +177,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
 
     private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
         // TODO add your handling code here:
+    }//GEN-LAST:event_btnEje01ActionPerformed
+
+    private void btnEje26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
+        Ej26_VectoresEventos ej26 = new Ej26_VectoresEventos();
+        ej26.setVisible(true);
     }//GEN-LAST:event_btnEje01ActionPerformed
 
     /**
