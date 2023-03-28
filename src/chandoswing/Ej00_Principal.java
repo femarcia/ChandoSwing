@@ -107,6 +107,12 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton13);
 
         jButton14.setText("jButton14");
+        jButton14.setToolTipText("David Sanchez Peso");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEje14ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton14);
 
         jButton15.setText("jButton15");
@@ -172,6 +178,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
     private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnEje01ActionPerformed
+
+    private void btnEje14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
+        Ej14_FileChooser ej14 = new Ej14_FileChooser();
+        ej14.setVisible(true);
+    }
 
     /**
      * @param args the command line arguments
