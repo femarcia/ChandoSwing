@@ -8,7 +8,7 @@ public class Eje_15 extends JFrame {
         super("Eje_15");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ImageIcon imagenFondo = new ImageIcon("src/chandoswing/image.png");
+        ImageIcon imagenFondo = new ImageIcon("src/chandoswing/image15.png");
 
         JLabel imagenLabel = new JLabel(imagenFondo);
         imagenLabel.setLayout(new BorderLayout());
