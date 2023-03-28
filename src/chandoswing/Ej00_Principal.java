@@ -100,7 +100,7 @@ public class Ej00_Principal extends javax.swing.JFrame {
         jButton11.setText("jButton11");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                jButton11ActionPerformed(evt);
             }
         });
         panEj00.add(jButton11);
@@ -173,6 +173,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {
+        Ej11_Menus menus = new Ej11_Menus();
+        menus.setVisible(true);
+    }
 
     private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
         // TODO add your handling code here:
