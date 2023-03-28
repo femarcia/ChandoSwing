@@ -125,6 +125,12 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton19);
 
         jButton20.setText("jButton20");
+        jButton20.setToolTipText("Xoel");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton20);
 
         jButton21.setText("jButton21");
@@ -168,6 +174,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {
+        Eje20_Dialogos eje_20 = new Eje20_Dialogos();
+        eje_20.setVisible(true);
+    }
 
     private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
         // TODO add your handling code here:
