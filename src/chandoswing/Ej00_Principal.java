@@ -98,6 +98,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton10);
 
         jButton11.setText("jButton11");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton11);
 
         jButton12.setText("jButton12");
@@ -107,6 +112,12 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton13);
 
         jButton14.setText("jButton14");
+        jButton14.setToolTipText("David Sanchez Peso");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEje14ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton14);
 
         jButton15.setText("jButton15");
@@ -134,6 +145,12 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton20);
 
         jButton21.setText("jButton21");
+        jButton21.setToolTipText("Hugo");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton21);
 
         jButton22.setText("jButton22");
@@ -148,7 +165,13 @@ public class Ej00_Principal extends javax.swing.JFrame {
         jButton25.setText("jButton25");
         panEj00.add(jButton25);
 
-        jButton26.setText("jButton1");
+        jButton26.setText("jButton26");
+        jButton26.setToolTipText("Daniel Touriño");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEje26ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton26);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -171,18 +194,19 @@ public class Ej00_Principal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {
-        Eje20_Dialogos eje_20 = new Eje20_Dialogos();
-        eje_20.setVisible(true);
-    }
 
-    private void btnEje01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
+        Eje_21 eje_21 = new Eje_21();
+        eje_21.setVisible(true);
     }//GEN-LAST:event_btnEje01ActionPerformed
+
 
     /**
      * @param args the command line arguments
