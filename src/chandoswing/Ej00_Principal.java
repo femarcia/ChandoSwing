@@ -136,6 +136,12 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton19);
 
         jButton20.setText("jButton20");
+        jButton20.setToolTipText("Xoel");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton20);
 
         jButton21.setText("jButton21");
