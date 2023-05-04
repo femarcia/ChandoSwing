@@ -98,6 +98,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton10);
 
         jButton11.setText("jButton11");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton11);
 
         jButton12.setText("jButton12");
@@ -107,6 +112,12 @@ public class Ej00_Principal extends javax.swing.JFrame {
         panEj00.add(jButton13);
 
         jButton14.setText("jButton14");
+        jButton14.setToolTipText("David Sanchez Peso");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEje14ActionPerformed(evt);
+            }
+        });
         panEj00.add(jButton14);
 
         jButton15.setText("jButton15");
@@ -175,7 +186,7 @@ public class Ej00_Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -183,6 +194,11 @@ public class Ej00_Principal extends javax.swing.JFrame {
         Eje_21 eje_21 = new Eje_21();
         eje_21.setVisible(true);
     }//GEN-LAST:event_btnEje01ActionPerformed
+
+    private void btnEje14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEje01ActionPerformed
+        Ej14_FileChooser ej14 = new Ej14_FileChooser();
+        ej14.setVisible(true);
+    }
 
     /**
      * @param args the command line arguments
